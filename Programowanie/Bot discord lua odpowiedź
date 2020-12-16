@@ -1,0 +1,5 @@
+client:on('messageCreate', function(message)
+    if message.content == '(prefix)(ping)' then
+        message.channel:send('(Wiadomość)')
+    end
+end)
