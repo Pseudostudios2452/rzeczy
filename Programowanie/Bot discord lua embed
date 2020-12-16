@@ -1,0 +1,35 @@
+client:on("messageCreate", function(message)
+
+	local content = message.content
+	local author = message.author
+
+	if content == "!embed" then
+		message:reply {
+			embed = {
+				title = "Tytuł embed",
+				description = "Opis embed",
+				author = {
+					name = author.username,
+					icon_url = author.avatarURL
+				},
+				fields = { -- array of fields
+					{
+						name = "Pole 1",
+						value = "Opis pola 1",
+						inline = true
+					},
+					{
+						name = "Pole 2",
+						value = "Opis pola 2",
+						inline = false
+					}
+				},
+				footer = {
+					text = "Stworzone przez discordie"
+				},
+				color = 0x000000 -- hex color code
+			}
+		}
+	end
+
+end)
