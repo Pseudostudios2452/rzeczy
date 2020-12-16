@@ -1,4 +1,7 @@
 # Siemka
-To jest tworzący sie repository, nic tu nie ma.
+To jest tworzący sie repository, mało tu rzeczy.
 # GitHub
-Nic do opisania :)
+Możecie pisać co tu chcecie
+Może jakiś skrypt?
+# Wy
+Będę szczęśliwy jeśli będziecie korzystali z tego repository!
